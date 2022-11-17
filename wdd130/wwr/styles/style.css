@@ -1,37 +1,61 @@
 #content {
     max-width: 1600px;
-    margin: 0 auto; 
+    margin: 0 auto;
+     
 }
 
 nav a{
     background-color: black;
-    color: #d9c2a3;
+    color: #e63946;
     text-decoration: none;
 }    
 nav a:hover {
     background-color: red;
-    color: #d9c2a3;
+    color: #457b9d;
 }    
 
+main section img {
+    box-sizing: border-box;
+}
+    
+
+.card-img {
+    border: 10px solid rgba(140, 26, 30, 0.7);
+}
 
 .book, .join{
-    background-color: black;
-    color: #d9c2a3;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    background-color: #e63946;
+    color: #f1faee;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px
 }    
 .book:hover, .join:hover
 
+#logo_link{   padding-top: 5px;
+}
 
+.msg{
+    background-color: #457b9d;
+    line-height: 1.5em;
+    padding: 35px;
+  }
+         
 
-
-.msg
 .msg p{
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size: 2em;
     background-color: black;
-    color: #d9c2a3;
+    color: #f1faee;
+    padding-bottom: 15px;
 }    
 .msg h2{
     background-color: black;
-    color: #d9c2a3;
+    color: #f1faee;
+    margin: 0;
 }    
 #hero-img {width: 100%;}
 
@@ -41,10 +65,12 @@ nav a:hover {
 main section{text-align: center;}
 
 
-.home-title
+.home-title {margin-top: 10px;}
 h4{
+    font-family: 'Brush Script MT', Helvetica, sans-serif;
+    font-size: 2em;
     background-color: black;
-    color: #d9c2a3;
+    color: #639abc;
 }    
 
 
@@ -53,40 +79,49 @@ h4{
     height: 725px;
 }
 body {
-    background-color: #80d6ee; 
+    background-color: #bbe9ea; 
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color:rgba(140, 26, 30, 0.7);
 }
 
 nav a:hover {
     background-color: black;
-    color: #d9c2a3;
+    color: #f1faee;
 }    
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }    
 
-
-
+.rivers-card{margin: 200px 0;}
+.camping-card{margin: 200px 0;}
+.rapids-card{margin: 200px 0;}
 
 footer{
     background-color: black;
-    color: #d9c2a3;
+    color: #f1faee;
+    padding: 25px 50px;
+    margin-top: 200px;
 }    
 footer a{
     background-color: black;
-    color: #d9c2a3;
+    color: #f1faee;
     text-decoration: none;
 }    
 footer a:hover{
     background-color: black;
-    color: #d9c2a3;
+    color: #f1faee;
 }    
 footer p {
     font-size: 1.2em;
@@ -94,3 +129,5 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+footer .social img {  padding-top: 15px;
+}
