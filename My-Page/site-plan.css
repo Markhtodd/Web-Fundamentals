@@ -15,11 +15,11 @@ Fonts are separated by a | */
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #FFD700;  /* headlines on a white background */ 
+  --headline-color-on-white: #b62f1d;  /* headlines on a white background */ 
   --headline-color-on-color: #C0C0C0; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #FFD700; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #C0C0C0; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #FFD700  ;
+  --paragraph-color-on-white: #b62f1d; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #b62f1d; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #C0C0C0  ;
   --nav-link-color: #b62f1d;
   --nav-background-color: #D4AC0D;
   --nav-hover-link-color: #C0C0C0;
@@ -39,6 +39,7 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  width:100%;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
