@@ -1,21 +1,19 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
-     
 }
 
 
 nav {
     display: flex;
     justify-content: space-around;
-    
 }
 
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-   
 }
+
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
@@ -92,9 +90,9 @@ main section img {
 }
 
 #hero-msg h1 {text-align: center;
-    color: #639abc;}
+    color: white;}
 #hero-msg h4{text-align: center;
-    color: #639abc;}
+    color: white;}
 .button-box{text-align: center;}
 main section{text-align: center;}
 
