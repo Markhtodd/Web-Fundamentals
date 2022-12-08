@@ -52,12 +52,14 @@ hr {
   height: 3px;
   margin: 35px 0;
   background: var(--accent1-color);
+  border: 2px solid black;
 }
 header {
   padding: 1em;
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
+  border: 2px solid black;
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -222,4 +224,9 @@ footer .social img {  padding-top: 15px;
   footer {
       margin-top: 25px;
   }
+  header {
+    background-color:#FFD700(140, 26, 30, 0.7);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
 }
