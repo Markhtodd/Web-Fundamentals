@@ -175,6 +175,12 @@ nav a:hover {
   border-right: 1px solid;
 }
 
+#logo_link{ 
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
 
 
 footer{
@@ -202,4 +208,18 @@ footer p a:hover {
     text-decoration: underline;
 }    
 footer .social img {  padding-top: 15px;
+}
+
+@media screen and (max-width: 900px) {
+
+  nav, footer {
+      flex-direction: column;
+  }
+  nav a {
+      display: block;
+      padding: 15px;
+  }
+  footer {
+      margin-top: 25px;
+  }
 }
